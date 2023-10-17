@@ -7,7 +7,7 @@ function MainPage() {
     return (
 
         <body>
-            <h1>Bem vindo à</h1>
+            <h1>Bem vindo a</h1>
 
             <nav className="botoes">
                 <ul>
