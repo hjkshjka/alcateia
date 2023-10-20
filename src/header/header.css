@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');
-
-
 * {
     padding: 0;
 }
 
-.header { 
-
-    background-color: ;
-
+h1 {
+    display: flex;
+    transform: translate(40%, 170%);
 }
