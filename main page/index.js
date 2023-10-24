@@ -31,8 +31,13 @@ function MainPage() {
                     <Route exact path="/Sistema" component={Sistema} />
                     <Route exact path="/Sobre" component={Sobre} />
                 </Switch>
-                
-              
+            
+                <nav>
+                    <option></option>
+                </nav>
+
+
+
             </div>
         </Router>
     );
