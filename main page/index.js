@@ -7,7 +7,8 @@ import Sobre from "../paginas/sobre";
 import "./main.css";
 import logo from "./imagens/logodubsol.png"
 import { i18n } from "../translate/i18n"
- 
+import { Avatar } from "@mui/material";
+
 
 
 function MainPage() {
@@ -32,12 +33,13 @@ function MainPage() {
                     <Route exact path="/Sobre" component={Sobre} />
                 </Switch>
             
+
+                
+
+
                 <nav>
-                    <option></option>
+                    <Avatar sx={{ with: 170 }}></Avatar>
                 </nav>
-
-
-
             </div>
         </Router>
     );
